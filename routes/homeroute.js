@@ -10,7 +10,5 @@ homeroute.use(bodyParser.json());
 
 homeroute.get("/",homecontrol.get_index);    // req index page
 
- homeroute.get("/home",homecontrol.get_home);     // req home page (logo)
-
 
 module.exports = homeroute;
