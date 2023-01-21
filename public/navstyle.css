@@ -3,9 +3,13 @@ html {
 }
 
 body{
-  background-image: url("test5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("test1.png");
+  background-color: #F0EDE9;
+  #B5D5C5;
+  backdrop-filter: blur(20px);
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
   margin: 0;
   color: white;
   background-attachment: fixed;
@@ -14,7 +18,7 @@ body{
   min-height: 100%;
 }
 .navbar{
-  backdrop-filter : blur(8px);
+  background-color: #B5D5C5;
   border-bottom: 3px solid;
   border-radius: 5px;
   border-color: #e9bb54;
@@ -33,12 +37,12 @@ body{
 }
 .nav-link {
   font-weight: bold;
-  color: white;
-  font-family: sans-serif;
+  color: #3D5656;
+  font-family: 'Mochiy Pop P One', sans-serif;
   font-size: 1.55rem;
 }
 .nav-link:hover{
-  color: #e9bb54;
+  color: #00005C;
 }
 button.navbar-toggler.collapsed, button.navbar-toggler{
   margin-right: 4%;
@@ -55,6 +59,7 @@ ul{
 li{
   padding-left: 60px;
 }
+/* -----------------footer-------------------- */
 .footer{
   border-top: 1px solid green;
   margin-top: auto;
@@ -62,5 +67,5 @@ li{
   color: white;
   backdrop-filter : blur(4px);
   text-align: center;
-  height: 40px;
+  height: 50px;
 }
