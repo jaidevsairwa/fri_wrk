@@ -7,11 +7,16 @@ h2{
   font-weight:5rem;
 }
 p {
+<<<<<<< HEAD
   padding-top: 12%;
   padding-right:5%;
   margin:0 10%;
   display: flex;
   color: black;
+=======
+  padding-top: 2%;
+  color: white;
+>>>>>>> parent of 231aeb7 (wallpaper)
   font-size: 1.2rem;
   text-align: left;
   justify-content: center;
