@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
-const Fruit = require("../models/model");
+const dbdata = require("../models/model");
 
 
 const get_download = function(req,res){
@@ -17,7 +17,7 @@ const get_download = function(req,res){
 };
 
 const download = function(req,res){
-          Fruit.find({},function(err,found){
+          dbdata.find({},function(err,found){
             if(err){
                   throw err;
                   logger.error("error", "error occured");

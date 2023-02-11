@@ -1,13 +1,25 @@
+h2{
+  position:relative;
+  margin:0 10%;
+  color:black;
+  top:20%;
+  font-size: 3rem;
+  font-weight:5rem;
+}
 p {
-  padding-top: 2%;
+  padding-top: 12%;
+  padding-right:5%;
+  margin:0 10%;
+  display: flex;
   color: black;
   font-size: 1.2rem;
-  margin: 3% 4% 0;
-  text-align: justify;
+  text-align: left;
+  justify-content: center;
   animation: fadeInAnimation ease 0.8s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
 
 @keyframes fadeInAnimation {
   0% {
@@ -16,4 +28,21 @@ p {
   100% {
     opacity: 1;
   }
+}
+
+/* -----------------footer-------------------- */
+#footer{
+  background: #122119;
+  #00425A;
+  border-top: 1px solid;
+  overflow: hidden;
+  margin-top: auto;
+  color: white;
+  backdrop-filter : blur(4px);
+  text-align: center;
+  height: 300px;
+}
+h9{
+  position: fixed;
+  bottom:2px;
 }

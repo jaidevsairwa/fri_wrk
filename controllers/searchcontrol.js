@@ -6,7 +6,7 @@ const app = express();
 
 app.use(bodyParser.urlencoded({extended:true}));
 
-const Fruit = require("../models/model");
+const Phytochemical = require("../models/model");
 
 const get_search = function(req,res){
   res.render("search",{empty : null, idnn:[]});
@@ -17,7 +17,7 @@ const get_search = function(req,res){
 const result = function(req,res){
 const idname=req.body.IDname;
 
-Fruit.find({name:idname},function(err,found,next){
+Phytochemical.find({id:idname},function(err,found,next){
     if(err){
         logger.log("error occured");
         return next(err);

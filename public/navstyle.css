@@ -1,15 +1,16 @@
 html {
   height: 100%;
+  overflow: hidden;
 }
 
 body{
-  background-image: url("test1.png");
+  /* background-image: url("test1.png"); */
   background-color: #F0EDE9;
   #B5D5C5;
-  backdrop-filter: blur(20px);
-  background-repeat: repeat-x;
+  background-position: right top;
+  /* backdrop-filter: blur(20px); */
+  background-repeat:none;
   background-size: contain;
-  background-position: center;
   margin: 0;
   color: white;
   background-attachment: fixed;
@@ -17,12 +18,22 @@ body{
   flex-direction: column;
   min-height: 100%;
 }
-.navbar{
+img{
+  position:absolute;
+  top:5%;
+  z-index: 1;
+  right:-30px;
+  height: auto;
+  width: 38%;
+  background-size: contain;
+
+}
+/* .navbar{
   background-color: #B5D5C5;
   border-bottom: 3px solid;
   border-radius: 5px;
   border-color: #e9bb54;
-}
+} */
 .container-fluid{
   padding: 0px;
 }
@@ -58,14 +69,4 @@ ul{
 
 li{
   padding-left: 60px;
-}
-/* -----------------footer-------------------- */
-.footer{
-  border-top: 1px solid green;
-  margin-top: auto;
-  width:100%;
-  color: white;
-  backdrop-filter : blur(4px);
-  text-align: center;
-  height: 50px;
 }

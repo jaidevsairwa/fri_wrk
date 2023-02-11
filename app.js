@@ -16,7 +16,7 @@ app.use(downloadroutes);
 
 // -----mongodb-----
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb://localhost:27017/testdb")
+mongoose.connect("mongodb://localhost:27017/Imported")
   .then(()=> console.log("MongoDB connected"))
   .catch(function(err){
     logger.log("error","connection failed : " + err)
