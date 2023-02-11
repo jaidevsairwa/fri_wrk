@@ -1,95 +1,66 @@
 html {
   height: 100%;
-  overflow: hidden;
 }
 
-body{
-<<<<<<< HEAD
+body {
   /* background-image: url("test1.png"); */
-  background-color: #F0EDE9;
-  #B5D5C5;
+  background-color: #f0ede9;
+  /* #B5D5C5; */
   background-position: right top;
   /* backdrop-filter: blur(20px); */
-  background-repeat:none;
+  background-repeat: none;
   background-size: contain;
-=======
-  background-image: url("test5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
->>>>>>> parent of 231aeb7 (wallpaper)
   margin: 0;
-  color: white;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
-<<<<<<< HEAD
-img{
-  position:absolute;
-  top:5%;
-  z-index: 1;
-  right:-30px;
-  height: auto;
-  width: 38%;
-  background-size: contain;
 
-}
 /* .navbar{
   background-color: #B5D5C5;
-=======
-.navbar{
-  backdrop-filter : blur(8px);
->>>>>>> parent of 231aeb7 (wallpaper)
   border-bottom: 3px solid;
   border-radius: 5px;
   border-color: #e9bb54;
 } */
-.container-fluid{
+.container-fluid {
   padding: 0px;
 }
 .navbar-brand {
   font-weight: bold;
   padding: 0 4%;
-  color: white;
+  background: -webkit-linear-gradient(50deg, #39917f, #0f3e32);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 3em;
 }
-.navbar-brand:hover{
-  color: #e9bb54;
+.navbar-brand:hover {
+  background: linear-gradient(45deg, #eb455f, #1c6758);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .nav-link {
   font-weight: bold;
-  color: white;
-  font-family: sans-serif;
+  color: #3d5656;
+  font-family: "Mochiy Pop P One", sans-serif;
   font-size: 1.55rem;
 }
-.nav-link:hover{
-  color: #e9bb54;
+.nav-link:hover {
+  color: #00005c;
 }
-button.navbar-toggler.collapsed, button.navbar-toggler{
+button.navbar-toggler.collapsed,
+button.navbar-toggler {
   margin-right: 4%;
   border-color: white;
   border-width: 1px;
 }
 
-ul{
+ul {
   text-align: right;
   color: green;
-  padding:0 3.9%;
+  padding: 0 3.9%;
 }
 
-li{
+li {
   padding-left: 60px;
 }
-<<<<<<< HEAD
-=======
-.footer{
-  border-top: 1px solid green;
-  margin-top: auto;
-  width:100%;
-  color: white;
-  backdrop-filter : blur(4px);
-  text-align: center;
-  height: 40px;
-}
->>>>>>> parent of 231aeb7 (wallpaper)

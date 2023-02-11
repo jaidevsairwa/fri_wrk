@@ -1,30 +1,43 @@
-h2{
-  position:relative;
-  margin:0 10%;
-  color:black;
-  top:20%;
+h4 {
+  margin: 0 5px;
+  color: black;
+  padding-top: 80px;
+  padding-left: 70px;
   font-size: 3rem;
-  font-weight:5rem;
+  font-weight: 400;
 }
-p {
-<<<<<<< HEAD
-  padding-top: 12%;
-  padding-right:5%;
-  margin:0 10%;
+#main_para {
+  padding-top: 20px;
+  margin-left: 4%;
   display: flex;
   color: black;
-=======
-  padding-top: 2%;
-  color: white;
->>>>>>> parent of 231aeb7 (wallpaper)
   font-size: 1.2rem;
   text-align: left;
   justify-content: center;
   animation: fadeInAnimation ease 0.8s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  width: 50%;
 }
-
+.tree-img {
+  position: fixed;
+  bottom: 230px;
+  right: 0px;
+}
+img {
+  object-fit: inherit;
+  z-index: 1;
+  height: auto;
+  width: 650px;
+  /* background-size: contain; */
+}
+hr {
+  position: relative;
+  border-top: 10px dotted #d61355;
+  width: 15%;
+  top: 50px;
+  left: 300px;
+}
 
 @keyframes fadeInAnimation {
   0% {
@@ -36,18 +49,36 @@ p {
 }
 
 /* -----------------footer-------------------- */
-#footer{
+#footer {
   background: #122119;
-  #00425A;
-  border-top: 1px solid;
+  /* #00425A; */
   overflow: hidden;
   margin-top: auto;
   color: white;
-  backdrop-filter : blur(4px);
-  text-align: center;
+  /* backdrop-filter : blur(4px); */
   height: 300px;
+  display: flex;
+  flex-wrap: wrap;
 }
-h9{
+.box-cont {
+  position: relative;
+  left: 13%;
+  padding-top: 50px;
+  padding-right: 20px;
+  text-align: center;
+  color: #f9f9f9;
+}
+h7 {
   position: fixed;
-  bottom:2px;
+  text-align: center;
+  bottom: 2px;
+}
+p {
+  margin: 0 15%;
+  text-align: justify;
+  color: #eee3cb;
+}
+
+a {
+  color: #f2d388;
 }
