@@ -4,7 +4,7 @@
   "description": "mongodb linked database",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,10 @@
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "json2csv": "^5.0.7",
-    "mongoose": "^6.8.0"
+    "mongoose": "^6.8.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
   }
 }
