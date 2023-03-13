@@ -11,9 +11,13 @@ h4 {
   font-size: 3rem;
   font-weight: 400;
 }
+
+.main_containt{
+  display: flex;
+}
 #main_para {
   padding-top: 20px;
-  margin-left: 4%;
+  margin-left: 7%;
   display: flex;
   color: black;
   font-size: 1rem;
@@ -22,18 +26,22 @@ h4 {
   animation: fadeInAnimation ease 0.8s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  width: 50%;
+  width: 85%;
+}
+.imgcont{
+  align-items: flex-end;
+  display: flex;
 }
 .tree-img {
-  position: absolute;
-  right: 0px;
-  bottom: 28%
+  position: relative;
 }
 img {
   position: absolute;
+  bottom: 0;
+  margin-bottom: -70px;
   z-index: 1;
   height: auto;
-  width: 550px;
+  width: 650px;
   /* background-size: contain; */
 }
 hr {
