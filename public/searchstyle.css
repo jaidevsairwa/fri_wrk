@@ -1,12 +1,13 @@
 #search{
-    margin: auto;
+    margin: 1% auto;
     width: 67%;
-  	background: white;
-  	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+  	background-image: url("./images/srpic.png");
+    /* color: white; */
+  	/* background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover; */
   	border-radius: 20px;
     backdrop-filter : blur(90px);
   	box-shadow: 1px 20px 80px #ff33;
-    border: dashed;
+    border:  5px solid white;
     animation: fadeInAnimation ease 0.8s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -22,8 +23,13 @@
 }
 
 .srch {
-  margin: 10%;
+  margin: 5% 10%;
 }
+
+.srchfrm{
+  margin: 3% 10%;
+}
+
 
 button{
   cursor: pointer;
@@ -42,9 +48,16 @@ button{
   }
 h2 {
   font-size: 2em;
+  color: white;
   text-align: center;
   margin-top: 3%;
   margin-bottom: 10%
+}
+h2.rs{
+  font-size: 2em;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 4%
 }
 button:checked{
   color: grey;
@@ -63,6 +76,9 @@ button:checked{
 .result {
   margin: 10% 0;
   align-self: auto;
+}
+h3{
+  color: white;
 }
 tbody {
   height: 55px;

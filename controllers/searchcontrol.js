@@ -15,22 +15,22 @@ const get_search = function(req,res){
 
 
 const result = function(req,res){
-const idname=req.body.IDname;
+      const idname=req.body.IDname;
 
-Phytochemical.find({id:idname},function(err,found,next){
-    if(err){
-        logger.log("error occured");
-        return next(err);
-    }
-    if(found.length){
-        res.render("search",{empty:null,idnn: found});
-        logger.log("info", "data retrieved");
-    }
-    else {
-        res.render("search",{empty : "No data Found", idnn:[]});
-        logger.log("warn", "no data found");
-      }
-  });
+      Phytochemical.find({id:idname},function(err,found,next){
+        if(err){
+          logger.log("error occured");
+          return next(err);
+        }
+        if(found.length){
+          res.render("result",{empty:null,idnn: found});
+          logger.log("info", "data retrieved");
+        }
+        else {
+          res.render("result",{empty : "No data Found", idnn:[]});
+          logger.log("warn", "no data found");
+        }
+    });
 };
 
 

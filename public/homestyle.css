@@ -1,3 +1,8 @@
+/* #wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+} */
 h4 {
   margin: 0 5px;
   color: black;
@@ -11,7 +16,7 @@ h4 {
   margin-left: 4%;
   display: flex;
   color: black;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
   justify-content: center;
   animation: fadeInAnimation ease 0.8s;
@@ -20,23 +25,23 @@ h4 {
   width: 50%;
 }
 .tree-img {
-  position: fixed;
-  bottom: 230px;
+  position: absolute;
   right: 0px;
+  bottom: 28%
 }
 img {
-  object-fit: inherit;
+  position: absolute;
   z-index: 1;
   height: auto;
-  width: 650px;
+  width: 550px;
   /* background-size: contain; */
 }
 hr {
   position: relative;
   border-top: 10px dotted #d61355;
   width: 15%;
-  top: 50px;
   left: 300px;
+  margin-bottom: 10px;
 }
 
 @keyframes fadeInAnimation {

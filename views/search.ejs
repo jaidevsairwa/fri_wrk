@@ -13,27 +13,5 @@
          <button type="submit" name="button">Submit</button>
        </div>
     </form>
-<div class="srch">
-  <table class="table table-striped table-bordered table-hover table-info">
-    <thead>
-      <tr>
-        <th scope="col">ID</th>
-        <th scope="col">SMILES</th>
-        <th scope="col">Heavy_Atoms</th>
-     </tr>
-   </thead>
-   <tbody>
-     <tr>
-       <%  idnn.find(function(item){ %>
-          <td> <%= item.id%> </td>
-          <td><%= item.SMILES %> </td>
-          <td><%= item.Heavy_Atoms %> </td>
-       <%  }); %>
-       </tr>
-   </tbody>
-  </table>
-  <td><%= empty %> </td>
-  </div>
-
 </section>
 <%- include("partials/footer"); -%>
